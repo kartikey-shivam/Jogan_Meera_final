@@ -1,0 +1,130 @@
+.section1 {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  &-left {
+    position: relative;
+    width: 45%;
+    height: 100%;
+    background-color: rgb(21, 37, 58);
+  }
+  &-right {
+    width: 55%;
+    max-height: 100%;
+    background-color: rgb(13, 19, 26);
+    position: relative;
+    overflow: hidden;
+  }
+}
+.img {
+  position: absolute;
+
+  &1 {
+    top: -13.5%;
+    left: 0%;
+  }
+  &2 {
+    top: -21%;
+    right: 2%;
+  }
+  &3 {
+    width: 25%;
+    top: 14%;
+    right: 20%;
+  }
+  &4 {
+    width: 30%;
+    bottom: 0;
+    left: 8%;
+  }
+  &5 {
+    width: 35%;
+    right: -3%;
+    bottom: -10%;
+  }
+}
+.img-main {
+  position: absolute;
+  &-sec3 {
+    position: absolute;
+    width: 40%;
+    bottom: 42%;
+    left: 8%;
+  }
+}
+
+.circle_text {
+  position: absolute;
+  width: 51%;
+  // background-color: aqua;
+  top: 23%;
+  left: 50%;
+  color: white;
+  z-index: 3;
+  &_sec2 {
+    width: 75%;
+    left: 28%;
+    top: 25%;
+  }
+  &_sec3 {
+    width: 42%;
+  }
+  &_sec5 {
+    width: 55%;
+  }
+  &_sec7 {
+    width: 38%;
+    top: 24%;
+    left: 60%;
+  }
+  &-1 {
+    font-size: 1.5rem;
+  }
+  &-head {
+    font-size: 3rem;
+    &_sec2 {
+      font-size: 3.2rem;
+    }
+  }
+  &-2 {
+    font-size: 1.5rem;
+    text-align: end;
+    &_sec2 {
+      font-size: 1.2rem;
+    }
+    &_sec4 {
+      padding-top: 5rem;
+    }
+  }
+}
+.bottom-text {
+  // background-color: aliceblue;
+  color: white;
+  position: absolute;
+  width: 34%;
+  bottom: 3%;
+  left: 10%;
+  &-head {
+    font-size: 3rem;
+  }
+  &-1 {
+    padding: 1rem 0rem;
+  }
+  &-2 {
+    padding-top: 3rem;
+  }
+}
+.icon {
+  // padding-left: 2rem;
+  color: white;
+  margin-left: 1rem;
+}
+.skip {
+  position: absolute;
+  bottom: 3%;
+  right: 10%;
+  &-text {
+    letter-spacing: 8px;
+    color: white;
+  }
+}

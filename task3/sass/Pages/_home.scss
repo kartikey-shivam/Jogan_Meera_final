@@ -1,0 +1,41 @@
+.home {
+  min-height: 100vh;
+  width: 100%;
+}
+.App {
+  // position: relative;
+  // height: 100vh;
+  // background-color: rgb(13, 19, 27);
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+  // color: white;
+}
+.circular-chart {
+  width: 100%;
+  // position: fixed;
+  border-radius: 50%;
+
+  background-color: green;
+  // transform: rotate(90deg);
+}
+.circular-bg {
+  fill: none;
+}
+.circle {
+  fill: none;
+}
+.progressBar {
+  position: fixed;
+  background-color: inherit;
+  padding: 0;
+  border-radius: 50%;
+  // position: absolute;
+  top: 8%;
+  left: 30%;
+  z-index: 2;
+}
+.progress {
+  // height: 100vh;
+  position: fixed;
+}
